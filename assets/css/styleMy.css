@@ -1,0 +1,361 @@
+
+/*---------------------
+  Contat Section
+-----------------------*/
+
+.dash-section {
+	background: #151515;
+	padding-top: 95px;
+}
+
+.dash-section .dash-info {
+	margin-bottom: 50px;
+}
+
+.dash-section .dash-info h4 {
+	color: #ffffff;
+	text-transform: uppercase;
+	font-weight: 500;
+	margin-bottom: 30px;
+}
+
+.dash-section .dash-info ul li {
+	list-style: none;
+	font-size: 18px;
+	color: #ffffff;
+	line-height: 48px;
+}
+
+.dash-section .dash-info ul li i {
+	color: #e4381C;
+	margin-right: 18px;
+}
+
+.dash-section .dash-address {
+	margin-bottom: 40px;
+}
+
+.dash-section .dash-address h4 {
+	color: #ffffff;
+	text-transform: uppercase;
+	font-weight: 500;
+	margin-bottom: 30px;
+}
+
+.dash-section .dash-address ul li {
+	list-style: none;
+	font-size: 18px;
+	color: #ffffff;
+	line-height: 25px;
+	position: relative;
+	padding-left: 35px;
+}
+
+.dash-section .dash-address ul li i {
+	font-size: 18px;
+	color: #e4381C;
+	margin-right: 18px;
+	position: absolute;
+	left: 0;
+	top: 7px;
+}
+
+.dash-form h4 {
+	color: #ffffff;
+	text-transform: uppercase;
+	font-weight: 500;
+	margin-bottom: 48px;
+}
+
+.dash-form form input {
+	width: 100%;
+	height: 48px;
+	border-radius: 2px;
+	background: #2d2d2d;
+	border: none;
+	padding-left: 20px;
+	margin-bottom: 30px;
+	font-size: 16px;
+	color: #a6a6a6;
+	-webkit-transition: all 0.3s;
+	-webkit-transition: 0.3s;
+	-o-transition: 0.3s;
+	transition: 0.3s;
+	border: 1px solid #131313;
+}
+
+.dash-form form input::-webkit-input-placeholder {
+	font-weight: 600;
+}
+
+.dash-form form input::-moz-placeholder {
+	font-weight: 600;
+}
+
+.dash-form form input:-ms-input-placeholder {
+	font-weight: 600;
+}
+
+.dash-form form input::-ms-input-placeholder {
+	font-weight: 600;
+}
+
+.dash-form form input::placeholder {
+	font-weight: 600;
+}
+
+.dash-form form input:focus {
+	background: #ffffff;
+	color: #151515;
+	font-weight: 600;
+}
+
+.dash-form form textarea {
+	width: 100%;
+	height: 198px;
+	border-radius: 2px;
+	background: #2d2d2d;
+	border: none;
+	padding-left: 20px;
+	padding-top: 15px;
+	font-size: 16px;
+	color: #a6a6a6;
+	-webkit-transition: all 0.3s;
+	-webkit-transition: 0.3s;
+	-o-transition: 0.3s;
+	transition: 0.3s;
+	resize: none;
+	margin-bottom: 25px;
+	border: 1px solid #131313;
+}
+
+.dash-form form textarea::-webkit-input-placeholder {
+	font-weight: 600;
+}
+
+.dash-form form textarea::-moz-placeholder {
+	font-weight: 600;
+}
+
+.dash-form form textarea:-ms-input-placeholder {
+	font-weight: 600;
+}
+
+.dash-form form textarea::-ms-input-placeholder {
+	font-weight: 600;
+}
+
+.dash-form form textarea::placeholder {
+	font-weight: 600;
+}
+
+.dash-form form textarea:focus {
+	background: #ffffff;
+	color: #151515;
+	font-weight: 600;
+}
+
+.dash-form form .c-btn {
+	font-size: 14px;
+	color: #ffffff;
+	font-weight: 500;
+	text-transform: uppercase;
+	background: -o-linear-gradient(45deg, #e16521, #e4381C);
+	background: linear-gradient(45deg, #e16521, #e4381C);
+	padding: 12px 40px;
+	border: none;
+	font-family: "Oswald", sans-serif;
+	border: 1px solid #000000;
+	border-radius: 2px;
+}
+.dash-form form button a {
+	color: blue;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+
+
+
+
+
+
+/*---------------------
+  Header
+-----------------------*/
+
+.childHeader-section {
+	padding-top: 40px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	z-index: 99;
+	padding-left: 60px;
+	padding-right: 60px;
+}
+
+.childHeader-section.childHeader-normal {
+	position: relative;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	background: #151515;
+	padding-top: 0;
+}
+
+.childHeader-section.childHeader-normal .logo {
+	padding: 40px 0;
+}
+
+.childHeader-section.childHeader-normal .nav-menu .mainmenu ul li a {
+	padding: 40px 0;
+}
+
+.childHeader-section.childHeader-normal .nav-menu .mainmenu ul li a:after {
+	bottom: 35px;
+}
+
+.childHeader-section.childHeader-normal .nav-menu .mainmenu ul li:hover .dropdown {
+	top: 107px;
+}
+
+.childHeader-section.childHeader-normal .nav-menu .mainmenu ul li .dropdown {
+	top: 128px;
+}
+
+.childHeader-section.childHeader-normal .nav-menu .mainmenu ul li .dropdown li a {
+	padding: 14px 22px;
+}
+
+.childHeader-section.childHeader-normal .top-social {
+	padding: 39px 0;
+}
+
+.logo {
+	float: left;
+}
+
+.logo a {
+	display: inline-block;
+}
+
+.nav-menu {
+	text-align: center;
+}
+
+.nav-menu .mainmenu {
+	display: inline-block;
+}
+
+.nav-menu .mainmenu ul li {
+	display: inline-block;
+	list-style: none;
+	margin-right: 45px;
+	position: relative;
+}
+
+.nav-menu .mainmenu ul li:last-child {
+	margin-right: 0;
+}
+
+.nav-menu .mainmenu ul li.active a {
+	color: #e4381C;
+}
+
+.nav-menu .mainmenu ul li.active a:after {
+	opacity: 1;
+}
+
+.nav-menu .mainmenu ul li a {
+	color: #ffffff;
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: 500;
+	line-height: 28px;
+	-webkit-transition: 0.3s;
+	-o-transition: 0.3s;
+	transition: 0.3s;
+	display: block;
+	font-family: "Oswald", sans-serif;
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.nav-menu .mainmenu ul li a:after {
+	position: absolute;
+	left: 0;
+	bottom: -5px;
+	width: 100%;
+	height: 2px;
+	background: #e4381C;
+	content: "";
+	opacity: 0;
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.nav-menu .mainmenu ul li:hover .dropdown {
+	opacity: 1;
+	visibility: visible;
+	top: 40px;
+}
+
+.nav-menu .mainmenu ul li:hover>a {
+	color: #e4381C;
+}
+
+.nav-menu .mainmenu ul li:hover>a:after {
+	opacity: 1;
+}
+
+.nav-menu .mainmenu ul li .dropdown {
+	position: absolute;
+	left: 0;
+	top: 70px;
+	width: 180px;
+	background: #e4381C;
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+	z-index: 99;
+}
+
+.nav-menu .mainmenu ul li .dropdown li {
+	display: block;
+	margin-right: 0;
+}
+
+.nav-menu .mainmenu ul li .dropdown li a {
+	text-align: left;
+	text-transform: capitalize;
+	padding: 10px 20px;
+	color: #ffffff;
+}
+
+.nav-menu .mainmenu ul li .dropdown li a:hover {
+	color: #151515;
+}
+
+.nav-menu .mainmenu ul li .dropdown li a:hover:after {
+	display: none;
+}
+
+.top-social {
+	float: right;
+}
+
+.top-social a {
+	display: inline-block;
+	font-size: 20px;
+	color: #ffffff;
+	margin-left: 20px;
+}
+
+.slicknav_menu {
+	display: none;
+}
